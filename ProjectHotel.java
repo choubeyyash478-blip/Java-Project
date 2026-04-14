@@ -62,7 +62,7 @@ package Project;
 
         public double calculateBill(int days, double rate) {
             double total = days * rate;
-            double tax = total * 0.1; // 10% tax
+            double tax = total * 0.1; 
             return total + tax;
         }
 
@@ -79,7 +79,7 @@ package Project;
         }
     }
 
-    // Step 8: Main Class
+    
     public class ProjectHotel {
         public static void main(String[] args) {
 
